@@ -11,7 +11,7 @@ RUN git clone --depth=1 https://github.com/beagle-dev/beagle-lib.git
 
 WORKDIR beagle-lib
 RUN ./autogen.sh
-RUN ./configure --prefix=/usr/local
+RUN ./configure --prefix=/usr/local --enable-avx=no
 RUN make install
 
 ENV LD_LIBRARY_PATH=/usr/local/lib
