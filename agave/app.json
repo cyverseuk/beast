@@ -1,0 +1,37 @@
+{
+  "name" : "beast1.8",
+  "label" : "Beast on CyverseUK",
+  "version" : "0.0.3",
+  "executionType" : "CLI",
+  "executionSystem": "cyverseUK-Batch2",
+  "deploymentSystem" : "cyverseUK-Storage2",
+  "deploymentPath" : "beast/agave",
+  "templatePath" : "wrapper.sh",
+  "testPath" : "test.sh",
+  "parallelism" : "SERIAL",
+  "shortDescription" : "Beast 1.8 (with Beagle)",
+  "longDescription" : "Beast 1.8 (with Beagle)",
+  "helpURI" : "http://beast.bio.ed.ac.uk/tutorials",
+  "author" : "Erik van den Bergh",
+  "tags" : ["testing","CyVerse UK"],
+  "ontology": [ ],
+
+  "inputs": [ 
+    {
+      "id": "xml_file",
+      "details" : {
+	"label" : "BEAST XML file",
+	"description" : "XML file with sequences and options for BEAST, see iPlant wiki for examples"
+      },
+      "value" : {
+	"required" : "true",
+	"default" : "agave://data.iplantcollaborative.org/home/erikvdbergh/testdata/beast/primates.xml",
+	"visible" : "true"
+      },
+      "semantics" : {
+	"maxCardinality" : 1
+      }
+    },
+  ],
+  "parameters" : [ ]
+}

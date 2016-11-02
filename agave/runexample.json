@@ -1,0 +1,9 @@
+{
+  "name" : "BeastExampleJob",
+  "appId" : "beast1.8-0.0.3",
+  "archive" : "true",
+  "batchQueue" : "normal",
+  "inputs" : {
+    "xml" : "agave://cyverseUK-Storage2/demodata/beast/primates.xml"
+  }
+}
