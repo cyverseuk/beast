@@ -405,7 +405,7 @@
 	</operators>
 
 	<!-- Define MCMC                                                             -->
-	<mcmc id="mcmc" chainLength="100000" autoOptimize="true" operatorAnalysis="primates.ops">
+	<mcmc id="mcmc" chainLength="8000000" autoOptimize="true" operatorAnalysis="primates.ops">
 		<posterior id="posterior">
 			<prior id="prior">
 				<booleanLikelihood>
