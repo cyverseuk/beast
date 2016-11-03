@@ -4,6 +4,6 @@
   "archive" : "true",
   "batchQueue" : "normal",
   "inputs" : {
-    "xml" : "agave://cyverseUK-Storage2/demodata/beast/primates.xml"
+    "xml" : "agave://cyverseUK-Storage2/beast/demo_data/primates.xml"
   }
 }
