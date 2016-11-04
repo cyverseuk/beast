@@ -1,9 +1,9 @@
 universe = docker
 docker_image = cyverseuk/beast:v0.0.3
 
-output = mrbayes.out
-error = mrbayes.err
-log = mrbayes.log
+output = beast.out
+error = beast.err
+log = beast.log
 
 request_memory = 124G
 request_cpus = 12
