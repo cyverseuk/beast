@@ -1,3 +1,4 @@
+test
 FROM ubuntu:16.04
 
 MAINTAINER Erik van den Bergh, Earlham Institute, Norwich 
