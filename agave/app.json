@@ -1,11 +1,11 @@
 {
   "name" : "beast1.8",
   "label" : "Beast on CyverseUK",
-  "version" : "0.0.3",
+  "version" : "0.1.0",
   "executionType" : "CLI",
   "executionSystem": "cyverseUK-Batch2",
   "deploymentSystem" : "cyverseUK-Storage2",
-  "deploymentPath" : "beast/agave",
+  "deploymentPath" : "apps/beast/agave",
   "templatePath" : "wrapper.sh",
   "testPath" : "test.sh",
   "parallelism" : "SERIAL",
