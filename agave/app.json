@@ -1,7 +1,7 @@
 {
   "name" : "beast1.8",
-  "label" : "Beast on CyverseUK",
-  "version" : "0.1.0",
+  "label" : "Beast 1.8 (with Beagle) on CyverseUK",
+  "version" : "1.0.0",
   "executionType" : "CLI",
   "executionSystem": "cyverseUK-Batch2",
   "deploymentSystem" : "cyverseUK-Storage2",
